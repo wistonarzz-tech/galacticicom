@@ -1,0 +1,48 @@
+# Galactic Icom - .gitignore
+# Clean static site project
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories (if any added later)
+node_modules/
+dist/
+
+# Build / output
+.vercel/
+.vercel/output/
+out/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS generated
+ehthumbs.db
+Icon?
+
+# Misc
+*.bak
+*.orig

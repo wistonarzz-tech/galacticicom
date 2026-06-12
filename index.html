@@ -3,10 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Galactic Icom — Astrología, conciencia, tecnología y transformación personal. Interpretaciones precisas y herramientas simbólicas para el autoconocimiento.">
-  <title>Galactic Icom | Astrología • Conciencia • Tecnología</title>
+  <title>Galactic Icom | Astrología, conciencia y tecnología</title>
+  <meta name="description" content="Galactic Icom es una plataforma de astrología avanzada, interpretación simbólica y herramientas digitales para el autoconocimiento, la transformación personal y el análisis de cartas astrales.">
+  <link rel="canonical" href="https://galacticicom.com/">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2240%22 fill=%22none%22 stroke=%22%23c9a227%22 stroke-width=%223%22/><circle cx=%2250%22 cy=%2250%22 r=%2215%22 fill=%22%236d28d9%22/></svg>">
+  <meta name="theme-color" content="#0a0a0f">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Galactic Icom | Astrología, conciencia y tecnología">
+  <meta property="og:description" content="Galactic Icom es una plataforma de astrología avanzada, interpretación simbólica y herramientas digitales para el autoconocimiento, la transformación personal y el análisis de cartas astrales.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://galacticicom.com/">
 </head>
 <body>
   <!-- Navigation -->
@@ -165,7 +173,7 @@
       <div class="section-header">
         <span class="section-label">Herramienta</span>
         <h2 class="section-title">Calculadora de Carta Astral</h2>
-        <p class="section-subtitle">Ingresa tus datos de nacimiento para generar tu mapa natal preciso.</p>
+        <p class="section-subtitle">Ingresa tus datos de nacimiento. Esta herramienta estará disponible próximamente y permitirá generar un mapa natal con posiciones planetarias, casas astrológicas y aspectos principales.</p>
       </div>
 
       <div class="calculator-wrapper">
@@ -205,13 +213,13 @@
             </button>
 
             <p class="form-note">
-              Los datos se procesan de forma segura. Esta herramienta genera un informe detallado con posiciones planetarias, casas y aspectos.
+              Los datos introducidos no se envían ni se almacenan en esta versión. La herramienta completa estará disponible próximamente.
             </p>
           </form>
 
-          <div id="calculator-result" class="calculator-result" style="display: none;">
+          <div id="calculator-result" class="calculator-result" style="display: none;" aria-live="polite" role="status">
             <div class="result-icon">⟡</div>
-            <h4>Gracias. Hemos recibido tus datos.</h4>
+            <h4>Información</h4>
             <p id="result-message"></p>
             <button type="button" id="reset-form" class="btn btn-secondary btn-small">Realizar otro cálculo</button>
           </div>
@@ -245,7 +253,7 @@
           <blockquote>
             “El cielo no determina el destino. Lo ilumina. La elección sigue siendo tuya.”
           </blockquote>
-          <cite>— Fundadores de Galactic Icom</cite>
+          <cite>— Manifiesto Galactic Icom</cite>
         </div>
       </div>
     </div>
@@ -266,7 +274,7 @@
           </a>
           <p class="contact-note">
             Para consultas personalizadas, talleres o colaboraciones, escríbenos directamente. 
-            Respondemos en un plazo máximo de 48 horas.
+            Respondemos lo antes posible según el tipo de consulta.
           </p>
         </div>
 

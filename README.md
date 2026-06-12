@@ -41,7 +41,7 @@ galacticicom/
 
 ### Opción 1: Abrir directamente (rápida)
 1. Abre la carpeta `galacticicom` en tu explorador de archivos.
-2. Haz doble clic en `index.html`.
+2. Haz doble clic en `index.html` (o usa `start index.html` en la terminal/PowerShell).
 3. Se abrirá en tu navegador predeterminado.
 
 > Nota: Algunas funciones (como el canvas de estrellas) funcionan perfectamente, pero para un desarrollo más cómodo se recomienda la opción 2.
@@ -92,8 +92,11 @@ npx http-server .
    ```
 4. Ve a [vercel.com](https://vercel.com), inicia sesión con GitHub.
 5. Haz clic en **"Add New Project"** → selecciona el repositorio `wistonarzz-tech/galacticicom` (o `galacticicom`).
-6. Vercel detectará automáticamente que es un sitio estático (o usa el `vercel.json` incluido).
-7. Haz clic en **Deploy**. ¡Listo! Tendrás una URL tipo `galacticicom.vercel.app`.
+6. En el paso de configuración, elige **Other / Static Site**.
+   - No requiere Build Command.
+   - No requiere Install Command.
+7. Vercel detectará automáticamente que es un sitio estático (usa el `vercel.json` incluido).
+8. Haz clic en **Deploy**. ¡Listo! Tendrás una URL tipo `galacticicom.vercel.app`.
 
 ### Opción B: Despliegue directo (sin Git)
 1. Ve a [vercel.com](https://vercel.com) e inicia sesión.
@@ -107,7 +110,7 @@ Después del primer deploy puedes conectar tu dominio personalizado (`galacticic
 ## 🛠︎ Notas técnicas
 
 - No hay dependencias externas. Todo funciona offline después de la primera carga.
-- El formulario de la calculadora **no envía datos reales** (es una demo). Muestra un mensaje elegante indicando que la herramienta estará disponible próximamente.
+- El formulario de la calculadora **no envía datos reales** (es una demo). Muestra un mensaje elegante indicando que la herramienta estará disponible próximamente. Los textos y comportamientos están ajustados para publicación.
 - El canvas de estrellas está optimizado y se pausa cuando la pestaña está inactiva.
 - El sitio usa HTML semántico, CSS moderno (variables, grid, flex, backdrop-filter) y JavaScript vanilla.
 - Totalmente accesible con navegación por teclado y atributos ARIA básicos.

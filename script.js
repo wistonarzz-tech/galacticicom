@@ -163,24 +163,8 @@ function initCalculator() {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    const nombre = document.getElementById('nombre').value.trim();
-    const fecha = document.getElementById('fecha').value;
-    const hora = document.getElementById('hora').value;
-    const ciudad = document.getElementById('ciudad').value.trim();
-    const pais = document.getElementById('pais').value.trim();
-
-    // Elegant "coming soon" message with personalization
-    let message = '';
-    if (nombre) {
-      message = `Estimado/a ${nombre.split(' ')[0]}, `;
-    }
-    message += `tu solicitud de carta astral ha sido registrada. `;
-
-    if (fecha && ciudad) {
-      message += `Los datos de nacimiento del ${fecha} en ${ciudad} serán procesados en cuanto la herramienta completa esté disponible. `;
-    }
-
-    message += `Nuestro equipo se pondrá en contacto contigo a la brevedad para entregarte tu interpretación detallada.`;
+    // Elegant coming-soon message (no personalization needed for this version)
+    const message = 'La calculadora de carta astral estará disponible próximamente. Galactic Icom está preparando una herramienta precisa para generar mapas natales completos.';
 
     resultMessage.textContent = message;
 
